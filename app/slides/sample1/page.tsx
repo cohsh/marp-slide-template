@@ -1,7 +1,7 @@
 import React from 'react';
 import Presentation from '../Presentation';
 
-const SamplePage: React.FC = () => {
+const SamplePage = () => {
     const presentationSrc = "/sample1.html";
 
     return (
