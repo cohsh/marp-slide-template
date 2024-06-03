@@ -1,0 +1,78 @@
+/* @theme custom */
+
+@import "default";
+
+/* General */
+
+section h1 {
+    color: #008DBD;
+}
+
+section h2 {
+    color: #008DBD;
+}
+
+section h3 {
+    color: #008DBD;
+}
+
+section h4 {
+    color: #008DBD;
+}
+
+section h5 {
+    color: #008DBD;
+}
+
+section h6 {
+    color: gray;
+    position: absolute;
+    left: 3%;
+    bottom: 5%
+}
+
+section strong {
+    color: black;
+}
+
+section table {
+    margin: 2% auto;
+}
+
+section table td img {
+    display: block;
+    margin: 0 auto;
+}
+
+section table th {
+    background-color: #FDFCF5;
+}
+
+/* Title */
+
+section.title h3 {
+    color: #6B818E;
+}
+
+/* Section */
+section.section h1 {
+    font-size: 200%;
+}
+
+/* Main */
+
+section.main h1 {
+    position: absolute;
+    left: 3%;
+    top: 5%
+}
+
+section.main li::before {
+    counter-increment: number;
+}
+
+section::after {
+    bottom: 2%;
+    right: 2%;
+    content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+}
