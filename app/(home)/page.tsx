@@ -4,7 +4,8 @@ export default function Home() {
   return (
     <main>
       <ul>
-        <Link href="sample1">Sample1</Link>
+        <li><Link href="slides/sample1">Sample1</Link></li>
+        <li><Link href="slides/sample2">Sample2</Link></li>
       </ul>
     </main>
   );

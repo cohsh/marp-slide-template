@@ -1,10 +1,10 @@
 'use client';
 
 import React from 'react';
-import Presentation from './Presentation';
+import Presentation from '../Presentation';
 
 const SamplePage: React.FC = () => {
-    const presentationSrc = "/sample1.html";
+    const presentationSrc = "/sample2.html";
 
     return (
       <Presentation src={presentationSrc} />
