@@ -21,7 +21,7 @@ export default function RootLayout({
         <nav>
           <Link href="/">ホーム</Link>
         </nav>
-        <h1>Marp Slides</h1>
+        <h1>Marp Slides (Samples)</h1>
         {children}
       </body>
     </html>
